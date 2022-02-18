@@ -17,11 +17,10 @@ services:
         container_name: db
         image: mysql
         restart: always
-        environment:
-            MYSQL_ROOT_PASSWORD: mestre123
-            MYSQL_DATABASE: tivit
-            MYSQL_USER: flavin
-            MYSQL_PASSWORD: mestre123
+        volumes: 
+            - ./mysql/data:/var/lib/mysql
+        env_file:
+            - ./mysql/.env
         ports:
             - "9906:3306"
     phpmyadmin:
