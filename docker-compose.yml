@@ -11,7 +11,7 @@ services:
             - ./php/src:/var/www/html/
         ports:
             - ${PORT}:80
-    db:  
+    db:  #tirar dúvida com o Lucas a respeito do arquivo .env.example estar no repositório do Github
         container_name: db
         image: mysql
         restart: always

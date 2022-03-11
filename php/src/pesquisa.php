@@ -69,7 +69,7 @@
                               <td>$data_nascimento</td>
                               <td width=150px>
                                   <a href='cadastro_edit.php?id=$cod_pessoa' class='btn btn-success btn-sm'>Editar</a>
-                                  <a href='#' class='btn btn-danger btn-sm'>Excluir</a>
+                                  <a href='#' class='btn btn-danger btn-sm' data-toggle='modal' data-target='#confirma'>Excluir</a>
                       
                               </td>
                             </tr>";
@@ -86,11 +86,11 @@
     </div>
     
     <!-- Modal -->
-    <div class="modal fade" id="modal_confirma" tabindex="-1" aria-labelledby="Confirmação de exclusão" aria-hidden="true">
+    <div class="modal fade" id="confirma" tabindex="-1" aria-labelledby="Confirmação de exclusão" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Confirmação de exclusão</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
