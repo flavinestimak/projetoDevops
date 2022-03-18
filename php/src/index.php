@@ -16,7 +16,7 @@
             <div class="col">
              <div class="jumbotron">
               <h1 class="display-4">Cadastro</h1>
-              <p class="lead">Este é um sistema simples de cadastro, onde deixo explicitamente registrado que ainda tenho muito a aprender.</p>
+              <p class="lead">Este é um sistema simples de cadastro, onde deixo explicitamente registrado que ainda tenho muito a aprender, porém, animado para tal.</p>
               <hr class="my-4">
               <p>Acesse as funções.</p>
               <a class="btn btn-primary btn-lg" href="cadastro.php" role="button">Cadastro</a>
